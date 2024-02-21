@@ -1,6 +1,6 @@
 # Netflix Clone Project
 
-(![alt text](seo-watch-free-link-preview.png))
+(seo-watch-free-link-preview.png)
 
 ## Overview
 
