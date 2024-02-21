@@ -1,0 +1,154 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'poppins',sans-serif;
+
+}
+
+/** Body**/
+
+body{
+  color: #fff;
+  background: #000;
+}
+
+
+/**header**/
+.header{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/header-image.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 10px 8%;
+  cursor: pointer;
+}
+
+nav{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 9px 0;
+}
+.logo{
+  cursor: pointer;
+  width: 170px;
+}
+
+nav button{
+  outline: 0;
+  border: 0;
+  background: rgb(173, 27, 27);
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 20px;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-left: 10px;
+  
+
+}
+.downicon-btn{
+  padding: 7px 10px;
+  border: 1px solid white;
+  background: transparent;
+  display: inline-flex;
+  align-items: center;
+
+}
+.downicon-btn img{
+width: 9px;
+margin-left: 9px;
+
+}
+
+
+/**Header contents**/
+.header-content{
+
+  top: 25%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 25%);
+  margin-top: 100px;
+  text-align: center;
+}
+
+.header-content h1{
+  max-width:650px;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 50px;
+}
+.header-content h3{
+  font-weight: 700;
+  margin-bottom: 20px;
+
+}
+ .Email-signup{
+  overflow: hidden;
+  margin-top: 30px;
+  align-items: center;
+  display: flex;
+  border-radius: 4px;
+  background: #fff;
+ }
+ .Email-signup input{
+  flex: 1;
+  border: 0;
+  outline: 0;
+  margin-left: 20px;
+
+ }
+
+ .Email-signup button{
+  background: rgb(202, 16, 16);
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 15px 30px;
+ }
+
+ /**Features/rows**/
+
+ .features{
+  font-size: 23px;
+  padding: 50px 12%;
+
+ }
+ 
+ .row{
+  display: flex;
+  padding: 50px 0;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+
+ }
+
+ .text-colum{
+  margin-bottom: 20px;
+  flex-basis: 50%;
+ }
+
+ .img-colum{
+
+  margin-bottom: 20px;
+  flex-basis: 50%;
+ }
+
+ .img-colum img{
+  margin: auto;
+  display: block;
+  width: 90%;
+ }
+
+ .features h2{
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: 600;
+ }
